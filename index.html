@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>GMS Rot am See – Trikotprojekt</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 40px 20px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #ff3c3c;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #bbbbbb;
+      margin-bottom: 40px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .btn {
+      background-color: #222;
+      color: #ffffff;
+      border: 2px solid #ff3c3c;
+      padding: 15px 30px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #ff3c3c;
+      color: #000;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Trikot-Projekt</h1>
+  <h2>GMS Rot am See – Schulprojekt 2025</h2>
+
+  <div class="buttons">
+    <a href="trikots.html" class="btn">Unsere Trikots</a>
+    <a href="kontakt.html" class="btn">Kontakt</a>
+  </div>
+
+  <footer>
+    © 2025 von Djamil & Christian
+  </footer>
+
+</body>
+</html>
